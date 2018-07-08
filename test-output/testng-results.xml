@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41217" started-at="2018-02-02T16:55:58Z" finished-at="2018-02-02T16:56:40Z">
+    <groups>
+      <group name="gmail">
+        <method signature="GoogleTestCase.gmail()[pri:4, instance:Java.testng.GoogleTestCase@224edc67]" name="gmail" class="Java.testng.GoogleTestCase"/>
+      </group> <!-- gmail -->
+      <group name="fail">
+        <method signature="GoogleTestCase.googlemail()[pri:3, instance:Java.testng.GoogleTestCase@224edc67]" name="googlemail" class="Java.testng.GoogleTestCase"/>
+      </group> <!-- fail -->
+      <group name="google">
+        <method signature="GoogleTestCase.googleTitle()[pri:2, instance:Java.testng.GoogleTestCase@224edc67]" name="googleTitle" class="Java.testng.GoogleTestCase"/>
+        <method signature="GoogleTestCase.googlelogo()[pri:1, instance:Java.testng.GoogleTestCase@224edc67]" name="googlelogo" class="Java.testng.GoogleTestCase"/>
+      </group> <!-- google -->
+      <group name="simple">
+        <method signature="GoogleTestCase.test5()[pri:5, instance:Java.testng.GoogleTestCase@224edc67]" name="test5" class="Java.testng.GoogleTestCase"/>
+        <method signature="GoogleTestCase.test6()[pri:7, instance:Java.testng.GoogleTestCase@224edc67]" name="test6" class="Java.testng.GoogleTestCase"/>
+        <method signature="GoogleTestCase.test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" class="Java.testng.GoogleTestCase"/>
+      </group> <!-- simple -->
+    </groups>
+    <test name="Default test" duration-ms="41217" started-at="2018-02-02T16:55:58Z" finished-at="2018-02-02T16:56:40Z">
+      <class name="Java.testng.GoogleTestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="3967" started-at="2018-02-03T00:55:58Z" finished-at="2018-02-03T00:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googlelogo()[pri:1, instance:Java.testng.GoogleTestCase@224edc67]" name="googlelogo" duration-ms="212" started-at="2018-02-03T00:56:02Z" finished-at="2018-02-03T00:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlelogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="218" started-at="2018-02-03T00:56:03Z" finished-at="2018-02-03T00:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2304" started-at="2018-02-03T00:56:03Z" finished-at="2018-02-03T00:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleTitle()[pri:2, instance:Java.testng.GoogleTestCase@224edc67]" name="googleTitle" duration-ms="18" started-at="2018-02-03T00:56:05Z" finished-at="2018-02-03T00:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="205" started-at="2018-02-03T00:56:05Z" finished-at="2018-02-03T00:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2320" started-at="2018-02-03T00:56:05Z" finished-at="2018-02-03T00:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="googlemail()[pri:3, instance:Java.testng.GoogleTestCase@224edc67]" name="googlemail" duration-ms="10062" started-at="2018-02-03T00:56:08Z" finished-at="2018-02-03T00:56:18Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"mail"}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Mariappans-MBP', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef), userDataDir=/var/folders/xx/p17nk81d61jcq4ss2yd_yq4w0000gn/T/.org.chromium.Chromium.EmmJ21}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f440ea826aadf5a821395c399a7a2a2d
+*** Element info: {Using=link text, value=mail}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"mail"}
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Mariappans-MBP', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef), userDataDir=/var/folders/xx/p17nk81d61jcq4ss2yd_yq4w0000gn/T/.org.chromium.Chromium.EmmJ21}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f440ea826aadf5a821395c399a7a2a2d
+*** Element info: {Using=link text, value=mail}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Java.testng.GoogleTestCase.googlemail(GoogleTestCase.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlemail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="198" started-at="2018-02-03T00:56:18Z" finished-at="2018-02-03T00:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2279" started-at="2018-02-03T00:56:18Z" finished-at="2018-02-03T00:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gmail()[pri:4, instance:Java.testng.GoogleTestCase@224edc67]" name="gmail" duration-ms="2378" started-at="2018-02-03T00:56:20Z" finished-at="2018-02-03T00:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="362" started-at="2018-02-03T00:56:23Z" finished-at="2018-02-03T00:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2175" started-at="2018-02-03T00:56:23Z" finished-at="2018-02-03T00:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test5()[pri:5, instance:Java.testng.GoogleTestCase@224edc67]" name="test5" duration-ms="2" started-at="2018-02-03T00:56:25Z" finished-at="2018-02-03T00:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="158" started-at="2018-02-03T00:56:25Z" finished-at="2018-02-03T00:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2179" started-at="2018-02-03T00:56:25Z" finished-at="2018-02-03T00:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" duration-ms="2" started-at="2018-02-03T00:56:27Z" finished-at="2018-02-03T00:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="199" started-at="2018-02-03T00:56:27Z" finished-at="2018-02-03T00:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2232" started-at="2018-02-03T00:56:28Z" finished-at="2018-02-03T00:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" duration-ms="2" started-at="2018-02-03T00:56:30Z" finished-at="2018-02-03T00:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="192" started-at="2018-02-03T00:56:30Z" finished-at="2018-02-03T00:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2118" started-at="2018-02-03T00:56:30Z" finished-at="2018-02-03T00:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" duration-ms="1" started-at="2018-02-03T00:56:32Z" finished-at="2018-02-03T00:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="146" started-at="2018-02-03T00:56:32Z" finished-at="2018-02-03T00:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2365" started-at="2018-02-03T00:56:32Z" finished-at="2018-02-03T00:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" duration-ms="1" started-at="2018-02-03T00:56:35Z" finished-at="2018-02-03T00:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="243" started-at="2018-02-03T00:56:35Z" finished-at="2018-02-03T00:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2215" started-at="2018-02-03T00:56:35Z" finished-at="2018-02-03T00:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test7()[pri:6, instance:Java.testng.GoogleTestCase@224edc67]" name="test7" duration-ms="1" started-at="2018-02-03T00:56:37Z" finished-at="2018-02-03T00:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="151" started-at="2018-02-03T00:56:37Z" finished-at="2018-02-03T00:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="setup" is-config="true" duration-ms="2090" started-at="2018-02-03T00:56:37Z" finished-at="2018-02-03T00:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test6()[pri:7, instance:Java.testng.GoogleTestCase@224edc67]" name="test6" duration-ms="1" started-at="2018-02-03T00:56:39Z" finished-at="2018-02-03T00:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Java.testng.GoogleTestCase@224edc67]" name="teardown" is-config="true" duration-ms="166" started-at="2018-02-03T00:56:39Z" finished-at="2018-02-03T00:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Java.testng.GoogleTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
